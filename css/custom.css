@@ -1,0 +1,198 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    color: #1e1e1e;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+}
+
+a, ul, li {
+    outline: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#header {
+	/*background-color: #92241b;*/
+	background-image: url(../images/headerbg.jpg);
+    background-repeat: repeat-x;
+}
+.title {
+	width: 1002px;
+	height: 26px;
+	line-height: 26px;
+	text-align: right;
+	margin: 0px auto;
+
+}
+
+.title a {
+    color: #ffffff;
+    cursor: pointer;
+    border-right: 1px solid #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 宋体;
+}
+
+.title a.end {
+    border-right: 0px solid #ffffff;
+    padding-right: 0px;
+}
+
+#header #logo {
+    height: 108px;
+    background-image: url(../images/logobg.jpg);
+}
+
+#header #logo .content {
+    height: 108px;
+    background-image: url(../images/logo.jpg);
+    width: 1002px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+#header #logo .content .tel {
+    color: #993229;
+    padding-top: 60px;
+    font-size: 24px;
+    display: none;
+}
+
+#nav {
+	height: 44px;
+    line-height: 44px;
+	background-image: url(../images/navbg.jpg);
+}
+
+#nav ul {
+	margin: 0px auto;
+	width: 1004px;
+
+	/*display: inline;*/
+}
+#nav ul li{
+	height: 44px;
+    line-height: 44px;
+    float: left;
+}
+
+.navline {
+	background-image: url(../images/nav/navline.jpg);
+	background-repeat: no-repeat;
+	width: 2px;
+}
+
+#linkHome {
+    height: 35px;
+    width: 141px;
+    line-height: 17px;
+    padding-top: 9px;
+    text-align: center;
+    color: #625c49;
+    display: block;
+    font-size: 16px;
+	background-image: url(../images/nav/hov-home.jpg)
+}
+
+
+#linkNews {
+    height: 35px;
+    width: 141px;
+    line-height: 17px;
+    padding-top: 9px;
+    text-align: center;
+    color: #625c49;
+    display: block;
+    font-size: 16px;
+	background-image: url(../images/nav/news.jpg);
+}
+
+#applying {
+    height: 35px;
+    width: 141px;
+    line-height: 17px;
+    padding-top: 9px;
+    text-align: center;
+    color: #625c49;
+    display: block;
+    font-size: 16px;
+
+	background-image: url(../images/nav/applying.jpg);
+
+}
+
+#academic {
+    height: 35px;
+    width: 141px;
+    line-height: 17px;
+    padding-top: 9px;
+    text-align: center;
+    color: #625c49;
+    display: block;
+    font-size: 16px;
+	background-image: url(../images/nav/academic.jpg);
+}
+
+#campus {
+    height: 35px;
+    width: 141px;
+    line-height: 17px;
+    padding-top: 9px;
+    text-align: center;
+    color: #625c49;
+    display: block;
+    font-size: 16px;
+	background-image: url(../images/nav/campus-life.jpg);
+}
+
+#counselling {
+    height: 35px;
+    width: 141px;
+    line-height: 17px;
+    padding-top: 9px;
+    text-align: center;
+    color: #625c49;
+    display: block;
+    font-size: 16px;
+	background-image: url(../images/nav/counseling.jpg);
+}
+
+#about {
+    height: 35px;
+    width: 141px;
+    line-height: 17px;
+    padding-top: 9px;
+    text-align: center;
+    color: #625c49;
+    display: block;
+    font-size: 16px;
+	background-image: url(../images/nav/about.jpg);
+}
+
+#banner {
+	height: 368px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 4px solid #92241b;
+	background-image: url(../images/bannerbg.jpg);
+}
+
+#banner #slide1{
+	background-image: url(../images/slide1.jpg);
+	display: block;
+	position: absolute;
+	height: 368px;
+	width: 100%;
+	background-position: center;
+}
+
+
+
