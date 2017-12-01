@@ -194,5 +194,98 @@ a, ul, li {
 	background-position: center;
 }
 
+#content {
+    background-image: url(../images/contentbg.jpg);
+    padding: 0px 27px;
+    width: 978px;
+    min-height: 100px;
+    margin: 0px auto;
+    padding-top: 12px;
+}
+
+#content .notification {
+    height: 43px;
+    width: 181px;
+    line-height: 32px;
+    background-image: url(../images/noticeboardbg.jpg);
+    background-repeat: no-repeat;
+}
+
+#n-brand {
+    display: block;
+    color: #1e1e1e;
+    width: 181px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    height: 43px;
+    line-height: 43px;
+    float: left;
+}
+#content .notification-end {
+    float: left;
+    border-top: 1px solid rgb(217,217,217);
+    border-bottom: 1px solid rgb(217,217,217);
+    height: 41px;
+    line-height: 41px;
+    text-align: left;
+    width:172px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#footer {
+    background-image: url(../images/footerbg.jpg);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1002px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 宋体;
+}
+
+/*.teach {
+    float: left;
+    width: 483px;
+}
+
+#content .teach .title {
+    background-image: url(../images/infoTitlebg.jpg);
+    height: 38px;
+    line-height: 38px;
+    margin-top:12px;
+}
+
+.titleleft {
+    background-image: url(../images/infoTitle_left.jpg);
+    background-repeat: no-repeat;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 25px;
+    color: #9b0b00;
+    font-size: 16px;
+    float: left;
+}*/
 
 
+#icon {
+    margin-top: 12px;
+    border: 1px solid #dadada;
+    padding: 12px;
+    height: 40px;
+}
+
+#icon ul li {
+    float: left;
+    display: list-item;
+}
+
+#cb-icon {
+    width: 100px;
+    height: 40px;
+}
